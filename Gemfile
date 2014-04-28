@@ -5,6 +5,7 @@ group :development, :test do
 	gem 'sqlite3', '1.3.8'
 	gem 'bootstrap-sass', '3.1.1'
 	gem 'rspec-rails', '2.13.1'
+	gem 'guard-rspec', '2.5.0'
 end
 
 group :development do
@@ -30,3 +31,4 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '0.3.20', require: false
 end
+
