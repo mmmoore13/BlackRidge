@@ -1,10 +1,19 @@
 <% provide(:title, 'Home') %>
-<div class="About">
-	<%= link_to image_tag("BlackRidge.png", :width => 200, :height => "auto"), '/about' %>
+<div class="center hero-unit" id="center">
+	<%= link_to image_tag("BlackRidge.png", :width => 250, :height => "auto", alt: "About Us"), about_path %>
 </div>
-<div class-"options">
-	<%= link_to image_tag(""), '#' %>
-	<%= link_to image_tag(""), '#' %>
-	<%= link_to image_tag(""), '#' %>
+<div class="options center">
+	<div class="circle sales">
+		<%= link_to image_tag("paintfaceleft.jpeg", :width => 150, :height => "auto", alt: 'Sales'), sale_path %>
+	</div>
+	<div class="circle facilities">
+		<%= link_to image_tag("JumpCenter.jpeg", :width => 150, :height => "auto", alt: "Facilities"), facilities_path %>
+	</div>
+	<div class="circle programs">
+		<%= link_to image_tag("painthorseright.jpeg", :width => 150, :height => "auto", alt: "Programs"), programs_path %>
+	</div>
+	<div class="circle ">
+		<%= link_to	image_tag(''), '#' %>
+	</div>
+	
 </div>
-<p>Find me in app/views/static_pages/home.html.erb</p>

@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def programs
   end
+
+  def facilities
+  end
 end

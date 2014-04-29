@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+.shoe {
+	position: center;
+}
+.circle {
+	padding: .5%;
+	position: float;
+}

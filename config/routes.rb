@@ -1,9 +1,11 @@
 BlackRidge::Application.routes.draw do
+  get "users/new"
   root "static_pages#home"
   get "static_pages/home"
-  get "static_pages/about"
-  get "static_pages/sale"
-  get "static_pages/programs"
+  match '/about', to: 'static_pages#about', via: 'get'
+  match '/sale', to: 'static_pages#sale', via: 'get'
+  match '/programs', to: 'static_pages#programs', via: 'get'
+  match '/facilities', to: 'static_pages#facilities', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

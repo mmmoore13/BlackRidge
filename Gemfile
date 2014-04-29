@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 gem 'rails', '4.0.4'
+gem 'sprockets', '2.11.0'
+gem 'instagram', '~> 1.0.0'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
@@ -20,7 +22,7 @@ group :test do
 	gem 'capybara', '2.1.0'
 end
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
